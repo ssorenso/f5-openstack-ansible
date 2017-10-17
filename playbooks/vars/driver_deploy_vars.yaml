@@ -30,7 +30,7 @@ neutron_l3_agent_service_name: neutron-l3-agent
 neutron_openvswitch_agent_service_name: neutron-openvswitch-agent
 
 # Remote user
-remote_user: testlab # User ansible will use to issue commands
+remote_user: ubuntu # User ansible will use to issue commands
 
 # The following vars are set by default in the appropriate roles
 # neutron_conf_file: /etc/neutron/neutron.conf
