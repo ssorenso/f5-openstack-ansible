@@ -28,5 +28,5 @@
   pip:
     name: '{{ agent_pkg_location }}'
     editable: false
-    extra_args: --upgrade
+    extra_args: '--install-option="--prefix={{ pip_install_dest }}"'
   when: use_pip|bool and pip_upgrade|bool

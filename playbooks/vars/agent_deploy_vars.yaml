@@ -33,4 +33,7 @@ advertised_tunnel_types: vxlan
 agent_service_name: f5-openstack-agent
 
 # Remote user
-remote_user: testlab  # User ansible will use to issue commands
+remote_user: ubuntu  # User ansible will use to issue commands
+
+# pip_install_dest - specifies the location where pip will install the agent
+pip_install_dest: /usr/bin # Ex: /usr/bin -or- /usr/local/bin
